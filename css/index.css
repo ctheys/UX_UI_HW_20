@@ -1,0 +1,183 @@
+/*Navigation*/
+.nav-item a {
+    color: black;
+    text-decoration: none;
+}
+
+.navbar {
+    background-color: white;
+}
+
+.logo a {
+    color: rgb(193, 124, 116);
+}
+
+.navbar {
+    background-color: white;
+}
+.navHeader a {
+    font-family: 'Merriweather';
+}
+
+/*Hero*/
+.jumbotron {
+    height: 700px;
+    background-color: white ;
+}
+.jumbotron h1, .jumbotron p {
+    display: flex;
+    justify-content: center;
+}
+.jumbotron h1 {
+    margin-top: 140px;
+    font-family: 'AgencyFBBlack';
+    font-size: 200px;
+    color: #201B39;
+}
+.jumbotron p {
+    font-family: 'Merriweather';
+    font-size: 20px;
+    font-style: italic ;
+}
+
+.left {
+    float: left;
+}
+
+.arrowLeft {
+    float: Left;
+    margin-left: -200px;
+    margin-right: -200px;
+}
+.arrowRight {
+    float: Right;
+    margin-left: -200px;
+    margin-right: -200px;
+}
+.arrowDown {
+    margin-top: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Reelii {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+/*Content*/
+.summary {
+    width: 800px;
+    margin-top: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    border-style:solid;
+    border-width:thin;
+    border-color: #E56B6F;
+}
+
+.problem-body h5, .problem-body p {
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.SummaryDescription {
+    margin-top: -20px;
+    display: flex;
+    justify-content: center;
+    text-align:center;
+    color: #666666;
+}
+
+.ProblemStatement {
+    font-size: 20px;
+    font-family: 'Merriweather';
+    color: #E56B6F;
+    font-style: italic;
+}
+.summary-body {
+    padding: 30px;
+    font-family: 'Merriweather';
+}
+
+.summary-body h5 {
+    font-weight: bold;
+}
+
+.accordion {
+    margin-top: 100px;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+.problemStat {
+    margin-top: 50px;
+    background-color: #201B39;
+    height: 300px;
+    font-family: 'Merriweather';
+}
+
+.problem-body {
+    padding: 70px;
+}
+
+.problem-body h5 {
+    color: #E3FF00;
+}
+.problem-body p {
+    color: white;
+}
+
+.accordion {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+}
+.btnAccordion {
+    color: #201B39;
+    border: none;
+    background-color: white;
+    align-items: center;
+}
+.cardHeader {
+    cursor: pointer;
+    text-align: center;
+    font-family: 'Merriweather';
+    font-size: 30px;
+}
+.card-body {
+    margin-bottom: 40px;
+}
+
+
+.card-body p {
+    font-family: 'Merriweather';
+    text-align: justify;
+}
+
+.a, .b, .c, .g, .h, .i, .j, .k, .l, .m, .n, .o, .p {
+    text-indent: 50px;
+    line-height: normal;
+    font-family: 'Merriweather';
+  }
+  .d, .e, .f {
+    text-indent: 10%;
+    line-height: normal;
+  }
+  
+  /*Footer*/
+  .footer {
+      margin-left: 50px;
+      margin-top: 100px;
+      background-color: white;
+  }
+  .navbarFooter{
+      font-family: 'Merriweather'
+  }
